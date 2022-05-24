@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel reservation form</title>
+</head>
+<body>
+<h1> Hotel reservation</h1>
+<p>Reservation Details </p>
+<form action="">
+    <table>
+        <tr>
+            <td>
+                <p>First Name *</p> <input required type="text">
+            </td>
+            <td>
+                <p>Last Name*</p> <input type="text" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Address 1 *</p> <input required type="text">
+            </td>
+            <td>
+                <p>Address 2</p> <input type="text" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>City *</p> <input required type="text">
+            </td>
+            <td>
+                <p>State *</p> <input type="text" required>
+            </td>
+            <td>
+                <p>Zip Code *</p> <input type="text" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Phone *</p> <input required type="text">
+            </td>
+            <td>
+                <p>Email Address *</p> <input type="email" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Check-in-date *</p> <input required type="date">
+            </td>
+            <td>
+                <p>Check-in-Time *</p> <input type="time" required>
+            </td>
+            <td>
+                <p>Check-out-date *</p> <input required type="date">
+            </td>
+            <td>
+                <p>Check-out-Time *</p> <input type="time" required>
+            </td>
+        </tr>
+    <tr>
+        <td>
+            <p>Room Preference*</p> 
+            <input type="radio" name="room" value="Standard">
+            <label for="Standard">Standard</label>
+            <input type="radio" name="room" value="Deluxe">
+            <label for="Deluxe">Deluxe</label>
+            <input type="radio" name="room" value="Suite"> 
+            <label for="Suite">Suite</label>
+        </td>
+        <td>
+            <p>Adults *</p>
+            <select name="" id="">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+        </td>
+        <td>
+            <p>Children *</p>
+            <select name="" id="">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+        </td>
+    </tr>
+    <tr><td> <br> <input type="submit" value="Submit"></td></tr>
+    </table>
+</form>
+</body>
+</html>
